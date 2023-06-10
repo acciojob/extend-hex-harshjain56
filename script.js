@@ -1,5 +1,18 @@
 const extendHex = (shortHex) => {
-  // write your code here
+     let array=shortHex.split("")
+	 let str=""
+	for(let i-=0;i<array.length;i++){
+		if(array[i]==="#"){
+			str+=array[i]
+		}
+			
+		else{
+			str+=array[i]
+			str+=array[i]
+		}
+
+		
+	}
 };
 
 // Do not change the code below.
