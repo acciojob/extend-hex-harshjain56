@@ -7,10 +7,14 @@ const extendHex = (shortHex) => {
 	else{
 		str+="#"
 	}
-	for(let i=1;i<array.length;i++){
-		
-			str+=array[i]
+	for(let i=0;i<array.length;i++){
+
+		   if(array[i]!=="#"){
+			   str+=array[i]
 		    str+=array[i]
+		   }
+		
+			
 		
 
 		
