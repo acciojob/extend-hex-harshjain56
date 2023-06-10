@@ -13,6 +13,8 @@ const extendHex = (shortHex) => {
 
 		
 	}
+
+	return str
 };
 
 // Do not change the code below.
